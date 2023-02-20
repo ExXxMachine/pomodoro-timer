@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.timer{
+    width: 100%;
+    height: 78%;
+}
+
+.timer__block{
+    display: flex;
+    justify-content: space-around;
+
+    width:100%;
+    height: 50%;
+}
+
+.input__block{
+    width: 28%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+}
+h2{
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+h3{
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 30px ;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 59px;
+
+    width: 95%;
+    height: 59px;
+
+    background: #011C2C;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.raz {
+    -moz-appearance: textfield;
+}
+.raz::-webkit-inner-spin-button {
+    display: none;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border: 1px;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+button:focus{
+    background: rgba(255, 255, 255, 0.33);
+    border: 1px solid #DBDBDB;
+}
+.button__block{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+.green__button{
+    background: #03AE85;
+}
+.space__button{
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #FFFFFF;
+}
+.red__button{
+    background: #FD6259;
+}
